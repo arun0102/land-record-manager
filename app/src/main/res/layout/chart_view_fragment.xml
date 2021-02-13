@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.chartview.ChartViewFragment">
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+<!--        <com.github.aachartmodel.aainfographics.aachartcreator.AAChartView-->
+<!--            android:id="@+id/aa_chart_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--        </com.github.aachartmodel.aainfographics.aachartcreator.AAChartView>-->
+
+    </LinearLayout>
+</layout>

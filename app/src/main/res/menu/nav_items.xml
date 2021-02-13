@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/graph"
+            android:icon="@android:drawable/gallery_thumb"
+            android:title="Graph View" />
+        <item
+            android:id="@+id/add_record"
+            android:icon="@android:drawable/btn_plus"
+            android:title="Add Record" />
+        <item
+            android:id="@+id/settings"
+            android:title="Settings" />
+    </group>
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_row_record"
+        android:orientation="horizontal"
+        android:weightSum="14">
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="4dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/txt_khasra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:paddingLeft="4dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/txt_area"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:paddingLeft="4dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/txt_part_owned"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/txt_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="4dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+    </LinearLayout>
+</layout>

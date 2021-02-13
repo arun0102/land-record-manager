@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Spinner
+            android:id="@+id/spinner_name"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner_khasra"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinner_name" />
+
+        <Spinner
+            android:id="@+id/spinner_allot_type"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinner_khasra" />
+
+
+        <EditText
+            android:id="@+id/et_part_owned"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            android:ems="10"
+            android:hint="Part owned e.g 1/2, 5/8, 0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinner_allot_type" />
+
+        <EditText
+            android:id="@+id/et_area"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Area in marla e.g 10, 20"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_part_owned" />
+
+        <Button
+            android:id="@+id/btn_add_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_area" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
